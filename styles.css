@@ -7,10 +7,27 @@ html {
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
+/* Set nav styling */
+
+nav ul {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav ul a:link {
+  color: #033b84;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #4292fa;
+}
+
 /* Set styling for color Swatches */
 
 ul.swatches {
   display: inline-block;
+  text-decoration: none;
 }
 
 ul.swatches li {
