@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&family=Lato:ital,wght@0,100;0,400;1,400&family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Codecademy: Website Design System</title>
   </head>
   <body>
     <header>
       <h1>Codecademy: Website Design System Project</h1>
-      <nav>
+      <!-- <nav>
         <ul class="nav-links">
           <li><a href="#colors">Colors</a></li>
           <li><a href="#typography">Typography</a></li>
           <li><a href="#buttons">Buttons</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
 
     <section class="colors" id="colors">
@@ -45,10 +51,43 @@
 
     <section class="typography" id="typography">
       <h2>Typography</h2>
+      <div class="font1">
+        <h3>Lato (100, 400, 400 Italics)</h3>
+        <p class="style1">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style2">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style3">Quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="font2">
+        <h3>Ubuntu (300, 500, 700 Italics)</h3>
+        <p class="style1">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style2">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style3">Quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <div class="font3">
+        <h3>Inconsolata (400, 600, 800)</h3>
+        <p class="style1">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style2">Quick brown fox jumps over the lazy dog.</p>
+        <p class="style3">Quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </section>
+
+    <section class="font-styles" id="font-styles">
+      <h2>Type Styling</h2>
+      <div class="headings">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </div>
     </section>
 
     <section class="buttons" id="buttons">
       <h2>Buttons</h2>
+      <ul class="buttons">
+        <li class="primary"></li>
+      </ul>
     </section>
   </body>
 </html>
